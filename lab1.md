@@ -1,5 +1,5 @@
 # Lab Report 1 - Remote Access and FileSystem (Week 1) {#week-1-lab-report}
-## cd
+**cd**
 <br>![Image](cd1.png)
 <br>**Working Directory** > /home
 <br>**Reason for Output** > The command "cd" is used to switch the current working directory to the given path. Therefore, there is no output and the working directory was not changed since no path was provided.
@@ -16,7 +16,7 @@
 <br>**Error** > Yes, since the argument was a file, there was an error becuase the command could not swith the current working directory to a file.
 <br>
 ---
-## ls
+**ls**
 <br> ![Image](ls1.png)
 <br>**Working Directory** > /home/lecture1
 <br>**Reason for Output** > The command "ls" lists the files and folders in the given path, so it listed the files and folders under /home/lecture1.
@@ -33,7 +33,7 @@
 <br>**Error** > No
 <br>
 ---
-## cat
+**cat**
 <br> ![Image](cat1.png)
 <br>**Working Directory** > /home/lecture1
 <br>**Reason for Output** > The command "cat" is used to print out the contents of files. Since there is no file to print from, nothing is printed out and the terminal is stuck.
