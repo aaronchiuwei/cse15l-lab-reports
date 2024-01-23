@@ -2,7 +2,7 @@
 # cd
 <br>![Image](cd1.png)
 <br>**Working Directory** -> `/home`
-<br>**Reason for Output** -> The command `cd` is used to switch the current working directory to the given path. Therefore, there is no output and the working directory was not changed since no path was provided. However, if 'cd' was called inside a directory, the current working path is swithed to the home directory.
+<br>**Reason for Output** -> The command `cd` is used to switch the current working directory to the given path. Therefore, there is no output and the working directory was not changed since no path was provided. However, if 'cd' was called inside a directory with no arguments, the current working path is swithed to the home directory.
 <br>**Error** -> No
 <br>
 <br> ![Image](cd2.png)
