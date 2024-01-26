@@ -24,5 +24,5 @@
 <br>**A terminal interaction where you log into your `ieng6` account without being asked for a password**
 <br>![Image](noPass.png)
 <br>
-# Part 3 ChatServer.java
+# Part 3
 <br>From the lab in week 2, I learned how to create and run my own server. In this process, I also learned how to get arguments from a URL and change what is displayed and stored based on the URL. In addition, I also learned how to get command line arguments when I had to get the port number to run the server.
