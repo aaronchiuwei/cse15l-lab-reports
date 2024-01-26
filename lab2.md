@@ -15,10 +15,13 @@
 <br>**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.** -> The value of the `String` chat field is not updated because the query of the URL was missing the correct elements. Instead of the the `String` chat field updating and displaying, an error message, `/add requires two query parameters seperated by &`, was displayed instead.
 <br>
 # Part 2 SSH Key
+<br>**The absolute path to the private key for your SSH key for logging into `ieng6`**
 <br>![Image](privateKey.png)
 <br>
+<br>**The absolute path to the public key for your SSH key for logging into `ieng6`**
 <br>![Image](publicKey.png)
 <br>
+<br>**A terminal interaction where you log into your `ieng6` account without being asked for a password**
 <br>![Image](noPass.png)
 <br>
 # Part 3 ChatServer.java
