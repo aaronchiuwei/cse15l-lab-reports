@@ -46,20 +46,17 @@ element being set to the wrong element because the first
 element was already changed by storing the first element
 and setting the last element to the stored element.
 # Part 2 - Researching Commands (`grep`)
-<br> 
-
 <br> **-c** [source](https://man7.org/linux/man-pages/man1/grep.1.html)
 <br>The option prints the count of the lines that match the entered word or phrase.
 <br> `grep -c "The" pmed.0010008.txt`
 <br> <br> ![Image](grep-c1.png)
-<br> In this case, the command counts the number of lines with "The" in it, which is
-9. This is useful because you are able to see how many lines have a particular 
-word or phrase in it.
-phrase in it.
+<br> In this case, the command counts the number of lines with "The" in it, which is 9. 
+This is useful because you are able to see how many lines have a particular word or phrase in 
+it.
 <br> `grep -c "CSE15L" pmed.0010008.txt`
 <br> ![Image](grep-c2.png)
-<br> In this case, the command counts the number of lines with "CSE15L" in it, which is 
-0. This is useful as you can see if a word or phrase does not appear in the file.
+<br> In this case, the command counts the number of lines with "CSE15L" in it, which is 0.
+This is useful as you can see if a word or phrase does not appear in the file.
 
 <br> **--color** [source](https://man7.org/linux/man-pages/man1/grep.1.html)
 <br>The option displays the matched strings in color on the terminal.
