@@ -6,8 +6,8 @@
 <br>
 <br>**Step 5**
 <br> ![Image](step5.png)
-<br> Keys Pressed: `git clone <command-p><enter>`
-<br>Explanation: The `git@github.com:aaronchiuwei/lab7.git` command was already copied, so I first typed out git clone and then pasted the ssh url using `<command-p>`.
+<br> Keys Pressed: `git clone git@github.com:aaronchiuwei/lab7.git`
+<br>Explanation: I typed out `git clone git@github.com:aaronchiuwei/lab7.git` since there were no commands and it was not in the search history.
 <br>
 <br>**Step 6**
 <br> ![Image](step6.png)
