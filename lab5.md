@@ -2,19 +2,19 @@
 ## Part 1 – Debugging Scenario
 **1. Student Post**
 <br> I am a struggling student and I am running a bash script to test the ListExamples.java on and I am looking for where in the filter method the test failed. It says that the expected array is different from the actual array. However, I cannot find where in the filter method to change. I included the output of the bash script, ListExamples.java, and TestListExamples.java.
-<br> ![Image](report5image1.png)
+![Image](report5image1.png)
 
 <br>**2. TA Response**
 <br>From the provided code, the problem is where each string is being added to the result list. Instead of `result.add(0, s)`, it should be replaced with `replace.add(s)`. This is because the original line of code added the string to the start of the list rather the end.
 
 <br>**3. Student Response**
 <br>Thank you that worked and I was able to pass the tests. The bug was exactly what you described.
-<br> ![Image](report5image2.png)
+![Image](report5image2.png)
 
 <br>**4. Setup**
-<br>The file & directory structure needed:
-<br> ![Image](report5image3.png)
-<br>Contents of `ListExamples.java` before fixing the bug:
+<br>**The file & directory structure needed:**
+![Image](report5image3.png)
+<br>**Contents of `ListExamples.java` before fixing the bug:**
 ```java
 import java.util.ArrayList;
 import java.util.List;
@@ -51,7 +51,7 @@ class ListExamples {
     }
     while(index2 < list2.size()) {
 ```
-<br>Contents of `TestListExamples.java` before fixing the bug:
+<br>**Contents of `TestListExamples.java` before fixing the bug:**
 ```java
 import java.util.ArrayList;
 import java.util.List;
@@ -81,7 +81,7 @@ public class TestListExamples {
   }
 }
 ```
-<br>The full command line (or lines) you ran to trigger the bug: `bash test.sh`
-<br>A description of what to edit to fix the bug: To fix the bug, I changed `result.add(0, s)` to `replace.add(s)` in the filter method.
+<br>**The full command line (or lines) you ran to trigger the bug:** `bash test.sh`
+<br>**A description of what to edit to fix the bug:** To fix the bug, I changed `result.add(0, s)` to `replace.add(s)` in the filter method.
 ## Part 2 – Reflection
 Something that I learned from my lab experience in the second half of this quarter is the usefulness of bash scripts in speeding up programming processes. I learned many different commands that can be included in the bash script and it was cool to learn how a bash script is used to create the autograder as well as being used in many other applications.
