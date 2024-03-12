@@ -1,5 +1,5 @@
 # Lab Report 5 - Putting it All Together (Week 9)
-## Part 1 – Debugging Scenario**
+## Part 1 – Debugging Scenario
 **1. Student Post**
 <br> I am a struggling student and I am running a bash script to test the ListExamples.java on and I am looking for where in the filter method the test failed. It says that the expected array is different from the actual array. However, I cannot find where in the filter method to change. I included the output of the bash script, ListExamples.java, and TestListExamples.java.
 <br> ![Image](report5image1.png)
